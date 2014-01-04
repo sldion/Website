@@ -1,0 +1,52 @@
+body
+{
+    	text-align: center;
+    	background: black /*url(http://media.heavy.com/media/2013/03/cool-simple-and-minimalist-desktop-wallpaper-the_dude_the_big_lebowski.png);*/
+    	color: black;
+    	font-family: Helvetica;
+    	background-size: 70% 70%;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom  margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box 				       model math. A nested div with side padding can also be used as an alternate method. */
+}
+p
+{
+    font-size: 24px;  
+    text-shadow:2px 2px 0px #FFFFFF;
+        
+}
+input
+{
+    border: 0;
+    padding: 10px;
+    font-size: 18px    
+}
+input[type = "submit"]
+{
+    background: black;
+    color: white;
+}
+a:link
+{
+  color: #6E6C64;
+  text-decoration: none
+}
+
+/* ~~ This is the layout information. ~~*/
+
+.content
+{
+  padding: 10px 0;
+}
+#wrapperWhiteMainHeader
+{
+  background: #FFFFFF;
+  margin: 0 auto 0 auto;
+}
+
