@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.navStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	
+	border-bottom:1px solid #000;
+    border-bottom-width:0px 0;
+    list-style:none;
+    margin: 0 20px 0 20x;
+    padding:0;
+    text-align:left;
+	background-color: #FFFFFF;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:1px;
+}
+
+.navStyle li{
+    display:inline;
+	text-decoration:  none;
+}
+
+.navStyle a{
+    display:inline-block;
+    padding:10px;
+	text-decoration:  none;
+}
+
+.navStyle a:hover   {
+  	border-bottom:4px solid #ccc;
+  	padding: 10px 10px 6px 10px;	/*Shift padding since thickening border moves text*/
+}
+
+.navStyle a.active{					/*Thickens border for current page*/
+   	border-bottom:4px solid #ccc;
+  	padding: 10px 10px 6px 10px;
+}
+
+/*Containers for things*/
+
+
+ 

@@ -1,0 +1,163 @@
+body
+{
+    	text-align: center;
+    	background:  #F7F7F7 /*url(http://media.heavy.com/media/2013/03/cool-simple-and-minimalist-desktop-wallpaper-the_dude_the_big_lebowski.png);*/
+    	color: black;
+    	font-family: Helvetica;
+    	background-size: 70% 70%;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	padding: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom  margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box 				       model math. A nested div with side padding can also be used as an alternate method. */
+	text-align: center
+	color: black
+}
+p
+{
+    font-size: 24px;  
+        
+}
+input
+{
+    border: 0;
+    padding: 10px;
+    font-size: 18px    
+}
+input[type = "submit"]
+{
+    background: black;
+    color: white;
+}
+a:link
+{
+  color: #6E6C64;
+  text-decoration: none
+}
+
+/* ~~ This is the layout information. ~~*/
+
+.content
+{
+  padding: 10px 0;
+}
+#wrapperWhiteMainHeader
+{
+  background: #FFFFFF;
+  margin: 0 auto 0 auto;
+}
+#wrapperWhiteMainHeader {
+  background: #FFFFFF;
+  margin: 0 auto 0 auto;
+}
+#wrapperHeader {
+	max-width:1000px;
+  	min-width:650px;
+  	background: #FFFFFF;
+  	margin: 0 auto 0 auto;
+	height: auto;
+    position: relative;
+}
+
+/*Custom Styles*/
+#wrapperWhiteRounded {
+  max-width:1000px;
+  min-width:650px;
+  background: #000000;
+  margin: 0 auto 0 auto; 
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #888;
+}
+
+#wrapperGreySectionTitle {
+  max-width:1000px;
+  min-width:650px;
+  background: #F7F7F7;
+  margin: 0 auto 12px auto; /*Parameters: top right bottom left*/
+  position: relative;
+  height: auto;
+}
+#wrapperSectionTitleText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 10px 0 0 30px;
+	padding: 0 0 10px 0; /*Parameters: top right bottom left*/
+}
+
+#wrapperFooter {
+  max-width:1000px;
+  min-width:650px;
+  background: #282828;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 40px 40px 0 0;
+  border-radius: 40px 40px 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #888; 
+}
+
+#wrapperFloatingFooter {
+  max-width:1000px;
+  min-width:650px;
+  background: #282828;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #888; 
+}
+
+#wrapperText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right:10px;
+	margin-left:10px;
+	padding: 0 10px 10px 20px;
+	color: white
+}
+
+#wrapperParagraphTitleText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: left
+}
+/* These are the custom containers remember that to change them */
+
+.container {
+  width: 90%;
+  max-width: 940px;
+  margin: 0 auto; }
+  
+  
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.hero {
+  background: url(http://sonofwashington.com/wp-content/uploads/2013/04/Mathimage1.jpg) repeat left top;
+  background-size: cover;
+  padding: 96px 0 0;
+  text-align: center; 
+  }
+
+.hero h1 {
+  color: #000;
+  text-shadow: 0 1px 0 #FFF;
+  -webkit-font-smoothing: antialiased; 
+  text-align: left;
+  
+  }  
