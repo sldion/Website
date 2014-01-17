@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.navStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-top: 1px solid #000;
+    list-style:none;
+    margin: 0 0px 0 0x;
+    padding:0;
+    text-align:Center;
+	background-color: white;
+	margin: 0 auto;
+
+}
+
+.navStyle li{
+    display:inline-table;
+	text-decoration:  none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.navStyle a{
+    display:inline-block;
+    padding:10px;
+	text-decoration:  none;
+}
+
+.navStyle a:hover   {
+  	border-bottom:4px solid #ccc;
+  	padding: 10px 10px 6px 10px;	/*Shift padding since thickening border moves text*/
+}
+
+.navStyle a.active{					/*Thickens border for current page*/
+   	border-bottom:4px solid #ccc;
+  	padding: 10px 10px 6px 10px;
+}
+
+/*Containers for things*/
+
+
+ 
